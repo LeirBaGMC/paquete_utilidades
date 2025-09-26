@@ -6,7 +6,7 @@ func contadorVocales(palabra string) int {
 
 	for _, letra := range palabra {
 		if letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u' ||
-			letsra == 'A' || letra == 'E' || letra == 'I' || letra == 'O' || letra == 'U' {
+			letra == 'A' || letra == 'E' || letra == 'I' || letra == 'O' || letra == 'U' {
 			contador += 1
 		}
 	}
