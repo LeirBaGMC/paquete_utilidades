@@ -9,7 +9,7 @@ BTC
 */
 // Conversor... convierte un valor en dólares a la moneda indicada
 // Opción: 1=EUR, 2=LB, 3=WON, 4=BTC
-func conversor(valor float64, opcion int) float64 {
+func Conversor(valor float64, opcion int) float64 {
 
 	switch opcion {
 	case 1:
