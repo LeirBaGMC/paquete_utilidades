@@ -1,7 +1,7 @@
 package utilidades
 
 // contadorVocales recibe una palabra y devuelve el número total de vocales
-func contadorVocales(palabra string) int {
+func ContadorVocales(palabra string) int {
 	contador := 0
 
 	for _, letra := range palabra {
